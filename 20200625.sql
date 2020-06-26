@@ -214,3 +214,9 @@ FROM emp
 WHERE deptno=10
   AND deptno=20 ;
   
+  
+--숙제
+SELECT userid 아이디, usernm 이름, alias AS 별명
+FROM users
+WHERE userid IN('brown','cony','sally');
+
